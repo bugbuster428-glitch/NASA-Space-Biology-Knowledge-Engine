@@ -133,7 +133,9 @@ function App() {
               </div>
             </button>
             
-            <button className="rounded-lg p-16 text-left min-h-[280px] flex flex-col justify-center bg-cover bg-center relative hover:shadow-lg hover:-translate-y-2 transition-all"
+            <button 
+              onClick={() => window.location.href = '/taskbook'}
+              className="rounded-lg p-16 text-left min-h-[280px] flex flex-col justify-center bg-cover bg-center relative hover:shadow-lg hover:-translate-y-2 transition-all"
               style={{ backgroundImage: `url(${btn3})` }}
             >
               <div className="absolute inset-0 bg-black/70 rounded-lg"></div>
