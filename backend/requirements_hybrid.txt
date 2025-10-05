@@ -1,0 +1,6 @@
+# Hybrid Summarization Dependencies
+spacy==3.7.2
+pytextrank==3.2.5
+
+# Install spaCy model after installing packages:
+# python -m spacy download en_core_web_sm

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Force article content to be black */
+.article-content,
+.article-content * {
+  color: black !important;
+}
+
+.article-content h1,
+.article-content h2,
+.article-content h3,
+.article-content h4,
+.article-content h5,
+.article-content h6,
+.article-content p,
+.article-content div,
+.article-content span,
+.article-content li {
+  color: black !important;
+}
